@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-principal: 'Montserrat'
+}
+
+* {
+    font-family: var(--font-principal);
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9rem;
+}
+
+label {
+    font-weight: 500;
+}
+
+#logo {
+    background: linear-gradient(180deg, #000, #303030);
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-div {
+    background: linear-gradient(180deg, #FFFAEE, #FFF);
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+#form-div input {
+    width: 100%; 
+    max-width: 300px;
+    padding: 10px; 
+    box-sizing: border-box;
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 36px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+
+#form-div label {
+    width: 100%; 
+    max-width: 300px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+#btnRegister {
+    background-color: black;
+    border-style: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+
+form input[type="password"] {
+    margin-bottom: 8px !important;
+}
+
+#form-extras {
+    margin-top: 36px;
+    display: flex;
+    gap: 20px
+}
+
+#btnRegister:hover {
+    background-color: #303030;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: .5rem;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
